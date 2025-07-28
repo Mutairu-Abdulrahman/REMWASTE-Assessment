@@ -99,9 +99,9 @@ npx cypress open
 
 **How Tests Are Organized**
 
-- All test cases are written in Gherkin format under *.feature file
-- Steps are implemented in JS inside step_definitions/
-- All element selectors and logic are abstracted in Page Object files
+- All test cases are written in Gherkin format under cypress/e2e/test.feature file
+- Steps are implemented in JS inside cypress/e2e/test/steps.spec.cy.js
+- All element selectors and logic are abstracted in page files inside cypress/pages/sauceDemoPOM.js
 
 
 
